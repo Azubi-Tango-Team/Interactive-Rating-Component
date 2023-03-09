@@ -1,0 +1,63 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    max-height: 320px;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
+ 
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally within wrapper */
+    align-items: center; /* Center vertically within wrapper */
+  }
+
+  button {
+    border: none;
+    border-radius: 30px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: orange;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+  }
+  h2{
+    color: white;
+  }
+  p{
+    color: hsl(217, 12%, 63%);
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+ 
+    background-color:hsl(213, 20%, 25%);
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .circle img {
+    width:60%; /* make sure the image fills the circle */
+    height: auto; /* maintain aspect ratio */
+    /* remove any whitespace below the image */
+  }
+
+
+  
